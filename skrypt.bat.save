@@ -1,0 +1,6 @@
+echo Sprawdzenie drzewa dysku C://
+cd \
+tree
+echo Sprawdzono. Tworzenie użytkownika Test.
+net user create Test
+echo Utworzono konto testowe.
