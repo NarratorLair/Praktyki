@@ -1,0 +1,58 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    direction:ltr;
+}
+h1
+{
+    text-align: center;
+    font-size: 25pt;
+    color: white;
+}
+h2
+{
+    text-align: center;
+    font-size: 16pt;
+    color: cyan
+}
+h3
+{
+    text-align: justify;
+    font-size: 14pt;
+    color: black
+}
+p
+{
+    text-align: left;
+    font-size: 9pt;
+    color: white;
+}
+table {
+    background-color: rgb(9, 72, 83) !important;
+    border: thick solid darkblue
+}
+button.facebook {
+    
+}
+button.twitter {
+
+}
+button.github {
+
+}
+button.bball {
+
+}
+ol 
+{
+    list-style-image: triangle;
+}
+div.column {
+    float: left;
+    height: 60%;
+    width: 25%;
+}
+div.column:after {
+    content: "";
+    display: table;
+    clear: both
+}
