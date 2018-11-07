@@ -26,31 +26,31 @@ p
     font-size: 9pt;
     color: white;
 }
-table#1 {
-    background-color: mediumblue;
-    border: thin double blue
-}
-table#2 {
-    background-color: navy;
-    border: thick solid darkblue
-}
 button.facebook {
-    
+    float: left;
 }
 button.twitter {
-
+    float: left;
 }
 button.github {
-
+    float: left;
 }
 button.bball {
-
+    float: left;
 }
 ol 
 {
-    list-style-image: triangle;
+    list-style: square;
 }
 div.column {
-    height: 60%;
+    height: 120%;
     width: 25%;
+}
+div.footer
+{
+    background-color: darkslategrey
+}
+.allo
+{
+    display: inline-flex;
 }
