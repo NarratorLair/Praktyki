@@ -1,6 +1,6 @@
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    direction:ltr;
+    font-family: 'Roboto', 'Verdana' sans-serif;
+    float: left
 }
 h1
 {
@@ -26,33 +26,34 @@ p
     font-size: 9pt;
     color: white;
 }
-table {
-    background-color: rgb(9, 72, 83) !important;
-    border: thick solid darkblue
-}
 button.facebook {
-    
+    float: left;
 }
 button.twitter {
-
+    float: left;
 }
 button.github {
-
+    float: left;
 }
 button.bball {
-
+    float: left;
 }
 ol 
 {
-    list-style-image: triangle;
+    list-style: square;
 }
-div.column {
+div.column_content 
+{
     float: left;
-    height: 60%;
     width: 25%;
 }
-div.column:after {
+div.column_content:after 
+{
     content: "";
     display: table;
     clear: both
+}
+div.footer
+{
+    background-color: darkslategrey
 }
