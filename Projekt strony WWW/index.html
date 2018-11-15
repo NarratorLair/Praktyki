@@ -1,242 +1,349 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <title>Confatheme</title>
-  </head>
-  <body>
-  <div class="container">
-    <div class="container">
-    <div class="row"><div class="column" style="background-image: url(BTC.png)"><div class="row">
-        <div class="col-4">
-          <h2><b style="color: plum">CONFATHEME</b></h2>
-          </div>
-          <div class="col-1">
-            Home
-          </div>
-          <div class="col-1">
-            About
-          </div>
-          <div class="col-1">
-            Pages
-          </div>
-          <div class="col-1">
-            Blog
-          </div>
-          <div class="col-1">
-            Gallery
-          </div>
-          <div class="col-1">
-            Contacts:
-          </div>
-          <div class="col-2">
-    </div>
-    <div class="row">
-      <i class="fas fa-user"></i>
-    <div class="row" style="margin-left: 16px; margin-right: 16px"><div class="col-12" style="color: white">
-      Lorem ipsum DAYS, consectetur adipisicing HOURS, sed do eiusmod MINUTES labore et SECONDS.
-    </div>
-    <div class="row"><div class="col-12" style="color: white">
-      <h1><b>BITCOIN</b> CONFERENCE 2018</h1></div>
-    <div class="row">
-      <div class="col-12"><h3 style="color: white">10-12 DECEMBER, 2019, London</h3></div>
-    </div></div></div>
-    <div class="row" style=color:#888888>
-      <p><small>READ MORE<a href="#" class="btn btn-danger">BUY TICKET</a></small></p>
-      </div>
-      <div class="row"></div>
-      <div class="jumbotron">
-        <h3>WHAT IS <b style="color:red">BITCOIN</b> CONFERENCE?</h3>
-        <p>There are many variations of passages of Lorem ipsum avaliable, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p></div>
-      <div class="jumbotron">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<style type="text/css">
+			a.btn.btn-danger{
+				border-radius: 0%;
+				border: 0px;
+				background-color:#ff3e62
+			}
+			i.fas.fa-user {
+				position: absolute
+			}
+			div.col-2.tix {
+				border: 14px, solid, #44428d; 
+				background-color: #262c60; 
+				margin-bottom: 1cm; 
+				margin-right: 2cm;
+				margin-left: 2cm
+			}
+		</style>
+		<title>Confatheme</title>
+	</head>
+	<body>
+	<div class="container.fluid">
+		<div class="container.fluid">
+			<div class="row">
+				<div class="column" style="background-image: url(BTC.png); background-repeat: no-repeat; background-size: 100%">
+					<div class="row">
+        					<div class="col-7">
+      						<h2><b style="color: #4e4eae; margin-left: 1cm">CONFATHEME</b></h2>
+      					</div>
+						<div class="col-5" style="background-image: linear-gradient(to right #ff4363 0%, #ff5a42 100%); margin-top: 0.1cm">
+							<div class="row">
+							<div class="col-1">
+            					Home
+      					</div>
+      					<div class="col-1">
+            					About
+      					</div>
+      					<div class="col-1">
+            					Pages
+      					</div>
+	    					<div class="col-1">
+            					Blog
+      					</div>
+      					<div class="col-1">
+      						Gallery
+      					</div>
+      					<div class="col-1">
+            					Contacts:
+      					</div>
+      					<div class="col-2"></div></div></div>
+    							<div class="row">
+      							<i class="fas fa-user"></i>
+								<div class="row" style="margin-left: 16px; margin-right: 16px">
+									<div class="col-12" style="color: white">
+										<p id="countdown"></p>
+    									</div>
+    									<div class="row">
+										<div class="col-12" style="color: white; margin-left: 1cm">
+											<h1><b>BITCOIN</b> CONFERENCE 2018</h1>
+										</div>
+										<div class="row">
+      										<div class="col-12">
+												<h3 style="color: white; margin-left: 2cm">10-12 DECEMBER, 2019, London</h3>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="w-100"></div>
+    								<div class="row" style="color:#981b39">
+      								<p><small><a href="#">READ MORE</a>   <a href="#" class="btn btn-danger">BUY TICKET</a></small></p>
+								  </div>
+								  <div class="w-100"></div>
+      							<div class="row"></div>
+      							<div class="col-4" style="margin-left:3cm; width:22cm; background-color:#262c60; color:white">
+        								<h3>WHAT IS <b style="color:red !important">BITCOIN</b> CONFERENCE?</h3>
+									  <p>There are many variations of passages of Lorem ipsum avaliable, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+								</div>
+      							<div class="col-4" style="flex: 12cm; width: 16cm; background-color:#807fff; color:white">
         <h5>MAIN TOPICS</h5>
         <p>Discuss common problems faced by these groups and try to come up with proposed solutions for those.</p>
         <hr>
         <p>Bring together Developers, Education institutes, Experts, Researchers, Government, Enthusiasists and Companies dealing in Blockchain Technologies.</p>
         <hr>
         <p>Discuss on Regulation around Blockchain, Crypto currencies like Bitcoin, Ethereum & ICO's.</p>
-      </div>
-</div></div></div></div>
-</div>
-<div class="container.images">
-  <h2 class="text-center"><b>SPEAKERS</b></h2>
-    <div class="row justify-content-center text-center">
-      <div class="col-3"><img src="TLee.png" class="img-fluid">
-      <h5>Tom Lee</h5>
-    <p><small>Advocate, Founder & Chairman of International Commision on Company name</small></p></div>
-      <div class="col-3"><img src="RThom.png" class="img-fluid">
-      <h5>Robert Thomson</h5>
-    <p><small>Head of strategic partnerships.</small></p></div>
-      <div class="col-3"><img src="AKin.png" class="img-fluid">
-      <h5>Adam King</h5>
-    <p><small>Marketing Director, Company Name</small></p></div>
-      <div class="col-3"><img src="RPet.png" class="img-fluid">
-      <h5>Ralph Piters</h5>
-    <p><small>Founder & CEO, Company Name</small></p></div>
-      <div class="w-100"></div>
-      <div class="col-3"><img src="PPla.png" class="img-fluid">
-      <h5>Peter Placer</h5>
-    <p><small>Chief Mentor at Startup Company Name</small></p></div>
-      <div class="col-3"><img src="SJoh.png" class="img-fluid">
-      <h5>Sara Johns</h5>
-    <p><small>Blockchain SIG Chair, Company Name</small></p></div>
-      <div class="col-3"><img src="MTal.png" class="img-fluid">
-      <h5>Mike Talant</h5>
-    <p><small>Advocate, Founder & Chairman of International Commision on Company name.</small></p></div>
-      <div class="col-3"><img src="JDoor.png" class="img-fluid">
-      <h5>John Door</h5>
-    <p><small>Marketing Director, Company Name</small></p></div>
-    </div>
-  </div>
-  <div class=container.event>
-    <div class="row" style="background-color:#f5f5f7; align-content: center">
-      <div class="col-12">
-    <h3><p class="text-center">Event Schedules</p></h3></div>
-    <div class="col-12">
-      <div class="btn-group btn-group-toggle" data-toggle="buttons">
-        <label class="btn active" style="background-color:transparent">
-          <input type="radio" name="dates" id="18122018" autocomplete="off" checked> DECEMBER 18, 2018
-        </label>
-        <label class="btn active" style="background-color:transparent">
-          <input type="radio" name="dates" id="19122018" autocomplete="off" checked> DECEMBER 19, 2018
-        </label> 
-        <label class="btn active" style="background-color:transparent">
-          <input type="radio" name="dates" id="20122018" autocomplete="off" checked> DECEMBER 20, 2018
-        </label>
-        </div>
-    </div>
-    <table class="table-11 table-hover" style="margin-left: 6%; margin-right: 6%; margin-bottom: 2cm">
-      <thead>
-        <tr class="table" style="background-color:#262c60; color: white; border-spacing: 1px 1px">
-          <th class="th-3">TIME</th>
-          <th class="th-7">AUDITORIUM</th>
-        </tr>
-      </thead>
-      <tbody style="background-color:white; color: #242544">
-        <tr>
-          <th scope="row">09:00 AM - 10:00 AM</th>
-          <th>Registration</th>
-        </tr>
-        <tr>
-          <th scope="row">10:00 AM - 10:30 AM</th>
-          <th><p><b>CREDITS - An open Blockchain Platform with autonomous smart contracts and an Internal cryptocurrency.</b></p>
-          <p>By Linda Grey</p></th>
-        </tr>
-        <tr>
-          <th scope="row">10:30 AM - 10:50 AM</th>
-          <th>Tea</th>
-        </tr>
-        <tr>
-          <th scope="row">10:50 AM - 11:30 AM</th>
-          <th><p><b>Understanding Investments ICO's and Mining</b></p>
-          <p>By Sara Lee</p></th>
-        </tr>
-        <tr>
-          <th scope="row"> 11:30 AM - 12:00 PM</th>
-          <th><p><b>Opportunities & Challenges in ICO ecosystem</b></p>
-          <p>By Sara Lee</p></th>
-        </tr>
-        <tr>
-          <th scope="row">12:10 PM - 12:30 PM</th>
-          <th><p><b>Tokenization of startups, path to ICOs</b></p>
-            <p>By Dan Adams</p></th>
-        </tr>
-        <tr>
-          <th scope="row">12:30 PM - 01:10 PM</th>
-          <th><p><b>Panel Discussion:" Entreprenur Opportunity: The wild west or thar desert?</b></p></th>
-        </tr>
-        <tr>
-          <th scope="row">01:10 PM - 02:00 PM</th>
-          <th>Lunch</th>
-        </tr>
-        <tr>
-          <th scope="row">02:00 PM - 02:40 PM</th>
-          <th><p><b>Hackathlon Prize announcements By Microsoft + Talk</b></p>
-            <p>By Marta Lopes</p></th>
-        </tr>
-        <tr>
-          <th scope="row">03:20 PM - 03:50 PM</th>
-          <th><p><b>Panel Discussion: New age of Investment: Investors' perspective.</b></p></th>
-        </tr>
-        <tr>
-          <th scope="row">04:00 PM - 05:00 PM</th>
-          <th><p><b>Q & A about blockchain & ICO's to Kumar Gaurav</b></p></th>
-        </tr>
-      </tbody>
-    </table>
-    </div>
-  </div>
-  <div class="container.event-sponsors text-center">
-      <h3>Our Event Sponsors</h3>
-      CHECK WHO MAKES THIS EVENT POSSIBLE
-      <div class="row justify-content-center" style="height:600px">
-        <div class="col-1"><img src="Brand3.png" class="img-fluid"></div>
-        <div class="col-1"><img src="Brand2.png" class="img-fluid"></div>
-        <div class="col-1"><img src="Brand1.png" class="img-fluid"></div>
-        <div class="col-1"><img src="Brand4.png" class="img-fluid"></div>
-        <div class="col-1"><img src="Brand5.png" class="img-fluid"></div>
-        <div class="col-1"><img src="Brand6.png" class="img-fluid"></div>
-        <div class="w-100"></div>
-        <div class="col-1"><img src="Brand4.png" class="img-fluid"></div>
-        <div class="col-1"><img src="Brand6.png" class="img-fluid"></div>
-        <div class="col-1"><img src="Brand2.png" class="img-fluid"></div>
-        <div class="col-1"><img src="Brand3.png" class="img-fluid"></div>
-      </div>
-    </div>
-  <div class="container.event-tickets">
-    <div class="row" style="background-color:#0c0e25; color:white">
-    <div class="col"><h3><p class="text-center">Our Event Sponsors</p></h3></div>
-    <div class="row" style="margin-top: 2cm; margin-right: 3 cm">
-    <div class="col-3"><div class="card card-body text-center" style="border: 14px, solid, #44428d; background-color: #262c60">
-    <i class="fas fa-dollar-sign"></i><b>39</b>/day
-    <p>PERSONAL</p>
-    <p>Entrance</p>
-    <p>Coffee Break</p>
-    <p>Certificate</p>
-    <p>Workshop</p>
-    <a href="#" class="btn btn-danger">BUY TICKET</a>
-  </div></div>
-    <div class="col-3"><div class="card card-body text-center" style="border: 14px, solid, #44428d; background-color: #262c60">
-    <i class="fas fa-dollar-sign"></i><b>79</b>/day
-    <p>STANDART</p>
-    <p>Entrance</p>
-    <p>Coffee Break</p>
-    <p>Certificate</p>
-    <p>Workshop</p>
-    <a href="#" class="btn btn-danger">BUY TICKET</a>
-    </div></div>
-    <div class="col-3"><div class="card card-body text-center" style="border: 14px, solid, #44428d; background-color: #262c60">
-    <i class="fas fa-dollar-sign"></i><b>99</b>/day
-    <p>GROUP</p>
-    <p>Entrance</p>
-    <p>Coffee Break</p>
-    <p>Certificate</p>
-    <p>Workshop</p>
-    <a href="#" class="btn btn-danger">BUY TICKET</a>
-    </div></div>
-    <div class="col-3"><div class="card card-body text-center" style="border: 14px, solid, #44428d; background-color: #262c60; margin-bottom: 1cm; margin-right: 1 cm">
-      <i class="fas fa-dollar-sign"></i><b>49</b>/day
-      <p>ECONOM</p>
-      <p>Entrance</p>
-      <p>Coffee Break</p>
-      <p>Certificate</p>
-      <p>Workshop</p>
-      <a href="#" class="btn btn-danger">BUY TICKET</a>
-    </div></div>
-    </div>
-    </div></div>
-    <div class="container">
-
-    </div>
-    <div class="container"><div class="google">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24190.736435843915!2d-74.01299936831767!3d40.72149337716186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259885419838b%3A0x2d39c2f6ed6db3c!2sLower+Manhattan%2C+Nowy+Jork%2C+Stany+Zjednoczone!5e0!3m2!1spl!2spl!4v1542109785786" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div></div>
-<div class="footer" style="align-self: flex-start"><div class="row"><div class=col style="width:100%; height: 70px; background-color:#0c0e25; color:white">© 2018. All rights reserved.   <i class="fab fa-facebook-f fa-x2"></i><i class="fab fa-twitter fa-x2"></i><i class="fas fa-envelope fa-x2"></i><i class="fab fa-linkedin-in fa-x2"></i></div></div></div></div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-  </body>
+								  </div>
+								  <div class="w-100"></div>
+      							HACKATHLON TALKS PANEL DISCUSSION 
+      							<a href="#" class="btn btn-danger">SPONSOR US</a><a href="#" class="btn btn-danger">JOIN HACKATON</a><a href="#" class="btn btn-danger">BUY TICKET</a>
+      							Dec 17-18, 2017 [Sun and Monday] Dec 18-19,2017 [Mon and Tuesday] Dec 18-19,2017 [Mon and Tuesday]
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container.images" style="margin-top: 1.5cm">
+				<h2 class="text-center"><b>SPEAKERS</b></h2>
+				<div class="row justify-content-center text-center">
+      				<div class="col-2">
+						<img src="TLee.png" class="img-fluid"><br>
+      					<h5>Tom Lee</h5>
+						<p><small>Advocate, Founder & Chairman of International Commision on Company name</small></p>
+					</div>
+      				<div class="col-2">
+						<img src="RThom.png" class="img-fluid"><br>
+      					<h5>Robert Thomson</h5>
+						<p><small>Head of strategic partnerships.</small></p>
+					</div>
+				      <div class="col-2">
+						<img src="AKin.png" class="img-fluid"><br>
+					      <h5>Adam King</h5>
+					      <p><small>Marketing Director, Company Name</small></p>
+					</div>
+     					<div class="col-2">
+						<img src="RPet.png" class="img-fluid"><br>
+    						<h5>Ralph Piters</h5>
+    						<p><small>Founder & CEO, Company Name</small></p>
+					</div>
+      				<div class="w-100"></div>
+      				<div class="col-2">
+						<img src="PPla.png" class="img-fluid"><br>
+						<h5>Peter Placer</h5>
+						<p><small>Chief Mentor at Startup Company Name</small></p>
+					</div>
+      				<div class="col-2">
+						<img src="SJoh.png" class="img-fluid"><br>
+						<h5>Sara Johns</h5>
+						<p><small>Blockchain SIG Chair, Company Name</small></p>
+					</div>
+					<div class="col-2">
+						<img src="MTal.png" class="img-fluid"><br>
+						<h5>Mike Talant</h5>
+						<p><small>Advocate, Founder & Chairman of International Commision on Company name.</small></p>
+					</div>
+					<div class="col-2">
+						<img src="JDoor.png" class="img-fluid"><br>
+						<h5>John Door</h5>
+						<p><small>Marketing Director, Company Name</small></p>
+					</div>
+				</div>
+  			</div>
+  		<div class=container.event>
+    			<div class="row" style="background-color:#f5f5f7; align-content: center">
+      			<div class="col-12" style="margin-top: 1.5cm">
+    				<h3><p class="text-center">Event Schedules:</p></h3></div>
+    					<div class="col-12" style="text-align: center">
+      					<div class="btn-group btn-group-toggle" data-toggle="buttons">
+        						<label class="btn btn-link active" style="color:black">
+         			 				<input type="radio" name="dates" id="18122018" class="radio" autocomplete="off" checked> DECEMBER 18, 2018
+        						</label>
+        						<label class="btn btn-link" style="color:black">
+          							<input type="radio" name="dates" id="19122018" class="radio" autocomplete="off"> DECEMBER 19, 2018
+        						</label> 
+        						<label class="btn btn-link" style="color:black">
+          							<input type="radio" name="dates" id="20122018" class="radio" autocomplete="off"> DECEMBER 20, 2018
+        						</label>
+        					</div>
+    					</div>
+    					<table class="table-11 table-hover" style="margin-left: 22%; margin-right: 22%; margin-bottom: 2cm">
+      					<thead>
+        						<tr class="table" style="background-color:#262c60; color: white; border-spacing: 1px 1px">
+          							<th class="th-3">TIME</th>
+          							<th class="th-7">AUDITORIUM</th>
+        						</tr>
+      					</thead>
+      					<tbody style="background-color:white; color: #242544">
+        						<tr>
+          							<th scope="row">09:00 AM - 10:00 AM</th>
+          							<th style="border-left: solid #f4f4f4">Registration</th>
+       						</tr>
+        						<tr>
+          							<th scope="row">10:00 AM - 10:30 AM</th>
+          							<th style="border-left: solid #f4f4f4"><p><b>CREDITS - An open Blockchain Platform with autonomous smart contracts and an Internal cryptocurrency.</b></p>
+          							<p>By Linda Grey</p></th>
+        						</tr>
+        						<tr>
+          							<th scope="row">10:30 AM - 10:50 AM</th>
+          							<th style="border-left: solid #f4f4f4">Tea</th>
+       						</tr>
+        						<tr>
+          							<th scope="row">10:50 AM - 11:30 AM</th>
+          							<th style="border-left: solid #f4f4f4"><p><b>Understanding Investments ICO's and Mining</b></p>
+          							<p>By Sara Lee</p></th>
+        						</tr>
+        						<tr>
+          							<th scope="row"> 11:30 AM - 12:00 PM</th>
+          							<th style="border-left: solid #f4f4f4"><p><b>Opportunities & Challenges in ICO ecosystem</b></p>
+          							<p>By Sara Lee</p></th>
+        						</tr>
+        						<tr>
+          							<th scope="row">12:10 PM - 12:30 PM</th>
+          							<th style="border-left: solid #f4f4f4"><p><b>Tokenization of startups, path to ICOs</b></p>
+            						<p>By Dan Adams</p></th>
+        						</tr>
+        						<tr>
+          							<th scope="row">12:30 PM - 01:10 PM</th>
+          							<th style="border-left: solid #f4f4f4"><p><b>Panel Discussion:" Entreprenur Opportunity: The wild west or thar desert?</b></p></th>
+        						</tr>
+        						<tr>
+        							<th scope="row">01:10 PM - 02:00 PM</th>
+          							<th style="border-left: solid #f4f4f4">Lunch</th>
+        						</tr>
+        						<tr>
+          							<th scope="row">02:00 PM - 02:40 PM</th>
+      							<th style="border-left: solid #f4f4f4"><p><b>Hackathlon Prize announcements By Microsoft + Talk</b></p>
+            						<p>By Marta Lopes</p></th>
+        						</tr>
+        						<tr>
+          							<th scope="row">03:20 PM - 03:50 PM</th>
+          							<th style="border-left: solid #f4f4f4"><p><b>Panel Discussion: New age of Investment: Investors' perspective.</b></p></th>
+        						</tr>
+        						<tr>
+          							<th scope="row">04:00 PM - 05:00 PM</th>
+          							<th style="border-left: solid #f4f4f4"><p><b>Q & A about blockchain & ICO's to Kumar Gaurav</b></p></th>
+        						</tr>
+      					</tbody>
+    					</table>
+    				</div>
+  			</div>
+  			<div class="container.event-sponsors text-center" style="margin-top: 1.5cm">
+      			<h3>Our Event Sponsors</h3>
+      			CHECK WHO MAKES THIS EVENT POSSIBLE
+      			<div class="row justify-content-center" style="height:200px">
+      				<div class="col-2"><img src="Brand3.png" class="img-fluid"></div>
+        				<div class="col-2"><img src="Brand2.png" class="img-fluid"></div>
+       				<div class="col-2"><img src="Brand1.png" class="img-fluid"></div>
+        				<div class="col-2"><img src="Brand4.png" class="img-fluid"></div>
+        				<div class="col-2"><img src="Brand5.png" class="img-fluid"></div>
+        				<div class="col-2"><img src="Brand6.png" class="img-fluid"></div>
+        				<div class="w-100"></div>
+        				<div class="col-2"><img src="Brand4.png" class="img-fluid"></div>
+        				<div class="col-2"><img src="Brand6.png" class="img-fluid"></div>
+        				<div class="col-2"><img src="Brand2.png" class="img-fluid"></div>
+        				<div class="col-2"><img src="Brand3.png" class="img-fluid"></div>
+      			</div>
+    			</div>
+  			<div class="container.event-tickets">
+    				<div class="row" style="background-color:#0c0e25; color:white">
+					<div class="col" style="margin-top: 1.5cm">
+						<h3><p class="text-center">Our Event Sponsors</p></h3>
+					</div>
+					<div class="w-100"></div>
+    					<div class="row" style="margin-top: 1cm; align-content: center; object-position: center">
+    						<div class="col-2 tix">
+    								<p><i class="fas fa-dollar-sign"></i><b style="font-size: 24px">39</b>/day</p>
+    								<p>PERSONAL</p>
+    								<p>Entrance</p>
+    								<p>Coffee Break</p>
+    								<p>Certificate</p>
+    								<p>Workshop</p>
+    								<a href="#" class="btn btn-danger">BUY TICKET</a>
+							</div>
+    						<div class="col-2 tix">
+    								<p><i class="fas fa-dollar-sign"></i><b style="font-size: 24px">79</b>/day</p>
+    								<p>STANDART</p>
+    								<p>Entrance</p>
+    								<p>Coffee Break</p>
+    								<p>Certificate</p>
+    								<p>Workshop</p>
+    								<a href="#" class="btn btn-danger">BUY TICKET</a>
+							</div>
+    						<div class="col-2 tix">
+									<p><i class="fas fa-dollar-sign"></i><b style="font-size: 24px">99</b>/day</p>
+    								<p>GROUP</p>
+    								<p>Entrance</p>
+    								<p>Coffee Break</p>
+    								<p>Certificate</p>
+    								<p>Workshop</p>
+    								<a href="#" class="btn btn-danger">BUY TICKET</a>
+							</div>
+    						<div class="col-2 tix">
+								<p><i class="fas fa-dollar-sign"></i><b style="font-size: 24px">49</b>/day</p>
+      							<p>ECONOM</p>
+      							<p>Entrance</p>
+      							<p>Coffee Break</p>
+      							<p>Certificate</p>
+      							<p>Workshop</p>
+      							<a href="#" class="btn btn-danger">BUY TICKET</a>
+							</div>
+    					</div>
+	    			</div>
+			</div>
+    			<div class="container.fluid">
+					<div class="col text-center" style="margin-top: 1cm; margin-bottom: 1cm"><h2>From our blog:</h2></div>
+      				<div class="row justify-content-center text-center">
+          					<div class="col-3">
+							<img src="Blog1.png" class="img-fluid"><br>
+          						<small>MARCH 16, 2018</small>
+							  <p><b><a href="https://credits.com/" style="color:#242544">CREDITS - An open Blockchain Platform with autonomous smart contracts and an Internal cryptocurrency.</a></b></p>
+						</div>
+         				 	<div class="col-3">
+						    	<img src="Blog2.png" class="img-fluid"><br>
+            					<small>MARCH 16, 2018</small>
+							<p><b><a href=https://www.researchgate.net/profile/Kishan_Ramawat/publication/259972974_Bioenergy_resources_of_the_Thar_Desert/links/53dce51b0cf2a76fb667c3b7/Bioenergy-resources-of-the-Thar-Desert.pdf style="color:#242544">Panel Discussion: Entreprenur Opportunity: The wild west or thar desert?</a></b></p>
+						</div>
+          					<div class="col-3">
+							<img src="Blog3.png" class="img-fluid"><br>
+            					<small>MARCH 16, 2018</small>
+	  						<p><b><a href="http://www.telegraph.co.uk/finance/personalfinance/investing/9482592/What-are-the-right-investments-for-the-new-age-of-income.html" style="color:#242544">Panel Discussion: New age of Investment: Investors' perspective.</a></b></p>
+						</div>
+          					<div class="col-3">
+		    					<img src="Blog4.png" class="img-fluid"><br>
+          						<small>MARCH 16, 2018</small>
+		  					<p><b><a href="http://centrumcoin.com/dist/files/centrumcoin-2pager-20180917.pdf" style="color:#242544">Opportunities & Challenges in ICO ecosystem</a></b></p>
+						</div>
+    					</div>
+    					<div class="container.fluid">
+						<div class="google">
+      						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24190.736435843915!2d-74.01299936831767!3d40.72149337716186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259885419838b%3A0x2d39c2f6ed6db3c!2sLower+Manhattan%2C+Nowy+Jork%2C+Stany+Zjednoczone!5e0!3m2!1spl!2spl!4v1542109785786" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    						</div>					
+					</div>
+					<div class="footer.fluid" style="align-self: flex-start">
+						<div class="row">
+							<div class=col style="width:100%; height: 70px; background-color:#0c0e25; color:white; margin: 0%; border-top: 0%">
+								<div class="col-4">© 2018. All rights reserved.</div>   <div class="col-3"><a href="https://www.facebook.com" style="color: white"><i class="fab fa-facebook-f fa-2x"></i></a><a href="https://www.twitter.com" style="color: white"><i class="fab fa-twitter fa-2x"></i></a><a href="https://www.envelopes.com/" style="color: white"><i class="fas fa-envelope fa-2x"></i></a><a href="https://www.linkedin.com" style="color: white"><i class="fab fa-linkedin-in fa-2x"></i></a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+    			var countDownDate = new Date("Dec 10, 2019 09:00:00").getTime();
+    			var x = setInterval(function() {
+     				var now = new Date().getTime();
+      			var distance = countDownDate - now;
+      			var years = Math.floor(distance / (1000 * 60 * 60 * 24 * 365))
+      			var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 365)) / (1000 * 60 * 60 * 24));
+      			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      			document.getElementById("countdown").innerHTML = years + " YEARS " + days + " DAYS " + hours + " HOURS " + minutes + " MINUTES " + seconds + " SECONDS ";
+      			if (distance <0) {
+        				clearInterval(x)
+        				document.getElementById("countdown").innerHTML = "Expired..."
+      			}
+    			}, 1000);
+			</script>
+			<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  	</body>
 </html>
